@@ -1,0 +1,5 @@
+csharp
+using DocumentFormat.OpenXml.Packaging; 
+using DocumentFormat.OpenXml.Wordprocessing;
+
+var doc = WordprocessingDocument.Create("Test.docx", WordprocessingDocumentType.Document);
